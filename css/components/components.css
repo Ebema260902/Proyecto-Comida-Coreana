@@ -3,8 +3,26 @@
     display: flex;
     align-items: center;
     padding: .5rem 2rem;
-    background: var(--clr-main);
+    background: #646B49;
     border-radius: 1.5rem;
+    text-decoration: none;
+}
+
+.btn-login{
+    display: flex;
+    align-items: center;
+    padding: .5rem 2rem;
+    background: #83924B;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+
+.btn-sign-up{
+    display: flex;
+    align-items: center;
+    padding: .5rem 2rem;
+    background: #646B49;
+    border-radius: .5rem;
     text-decoration: none;
 }
 

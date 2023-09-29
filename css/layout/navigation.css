@@ -17,6 +17,16 @@
     margin-left: 12rem;
 }
 
+.nav-list-login-btn{
+    text-emphasis-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 1rem;
+    list-style-type: none;
+    margin-left: 40rem;
+}
+
 .nav-list-link{
    color: var(--clr-white);
    text-decoration: none;

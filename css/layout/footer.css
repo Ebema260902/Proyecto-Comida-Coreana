@@ -2,10 +2,10 @@
     width: 100%; 
     border-top-left-radius: 6rem;
     border-top-right-radius: 6rem;
-    color: var(--clr-black);
+    color: var(--clr-white);
     margin: 2rem 0 0;
     display: grid;
-    background: var(--clr-inner-bg);
+    background: #62331b;
 }
 
 .footer-content{
@@ -28,7 +28,7 @@
 }
 
 .nav-footer-link{
-   color: var(--clr-black);
+   color: var(--clr-white);
    text-decoration: none;
    font-size: var(--fs-md);
 }
