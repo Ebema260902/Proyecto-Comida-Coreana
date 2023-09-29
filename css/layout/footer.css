@@ -28,7 +28,7 @@
 }
 
 .nav-footer-link{
-   color: var(--clr-white);
+   color: var(--clr-white );
    text-decoration: none;
    font-size: var(--fs-md);
 }
