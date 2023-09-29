@@ -21,6 +21,7 @@
 
 .activity-text{
     font-size: var(--fs-nm);
+    line-height: 2;
 }
 
 .destinations-title{
