@@ -27,7 +27,7 @@
     max-width: 400px; 
 }
 
-.destinations-title{
+.featured-dishes-title{
     font-family: 'Inter', sans-serif;
     /* font-size: clamp(var(--fs-md, 1.875rem, var(--fs-lg))); */
     font-size: 3rem;
