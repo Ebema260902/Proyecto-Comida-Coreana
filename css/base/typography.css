@@ -17,18 +17,24 @@
     font-size: var(--fs-md);
     font-family: var(--ff-main);
     margin: 1rem, 0 0;
+    
 }
 
 .activity-text{
-    font-size: var(--fs-nm);
-    line-height: 2;
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-sm);
+    line-height: 1.7;
+    max-width: 400px; 
 }
 
 .destinations-title{
-    font-family: var(--ff-main);
-    font-size: clamp(var(--fs-md, 1.875rem, var(--fs-lg)));
+    font-family: 'Inter', sans-serif;
+    /* font-size: clamp(var(--fs-md, 1.875rem, var(--fs-lg))); */
+    font-size: 3rem;
     width: 17ch;
-    margin: 1rem auto;
+    position: relative;
+    /* margin: 1rem auto; */
+    left: 10.2rem;
 }
 
 .subscribe-title{
