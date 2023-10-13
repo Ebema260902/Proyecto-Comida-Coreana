@@ -1,7 +1,7 @@
 .activities-container{
     display: grid;
-    width: 65vw;
-    height: 430px;
+    width: 73vw;
+    height: 510px;
     margin: 2rem auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
@@ -14,7 +14,7 @@
     text-align: center;
     padding: 2rem 1rem;
     border-radius: 1rem;
-    box-shadow: 0px 0px 5px .25px #f1eeee;
+    box-shadow: 0px 0px 3px .25px #c7c5c5;
 }
 
 .subscribe{
