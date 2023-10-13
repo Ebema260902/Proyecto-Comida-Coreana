@@ -14,9 +14,10 @@
 }
 
 .activity-title{
-    font-size: var(--fs-md);
+    font-size: 1.6rem;
     font-family: var(--ff-main);
-    margin: 1rem, 0 0;
+    position: relative;
+    bottom: 2rem;f
     
 }
 
