@@ -8,6 +8,34 @@
     text-decoration: none;
 }
 
+.btn-cart{
+    display: flex;
+    position: relative;
+    max-width: 25px;
+    max-height: 60px;
+    align-items: center;
+    padding: .5rem 2rem;
+    background: #646B49;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    right: 3.5rem;
+    bottom: 2rem;  
+}
+
+.btn-info{
+    display: flex;
+    position: relative;
+    max-width: 25px;
+    max-height: 60px;
+    align-items: center;
+    padding: .5rem 2rem;
+    background: #646B49;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    left: 2.3rem;
+    bottom: 4rem; 
+}
+
 .btn-login{
     display: flex;
     align-items: center;
@@ -63,11 +91,12 @@
 
 .activity-image{
     display: block;
-    width: 230px;
+    width: 237px;
     height: 130px;
     border-radius: 1rem;
     position: relative;
-    right: 1rem;
+    right: .4rem;
+    bottom: 4rem;
 }
 
 .like-btn{
@@ -84,12 +113,14 @@
     position: absolute;
     background-color: var(--clr-white);
     color: black;
+    width: 37px;
+    height: 26px;
     text-align: center;
     padding: .5rem 1.7rem;
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
     left: 50%;
     transform: translate(-50% , 0);
-    top: 5rem;
+    top: 2.5rem;
     border: 1px solid #000;
 }
 
@@ -120,7 +151,6 @@
     position: relative;
     width: 300px;
     height: 300px;
-
 }
 
 

@@ -17,15 +17,18 @@
     font-size: 1.6rem;
     font-family: var(--ff-main);
     position: relative;
-    bottom: 2rem;f
+    bottom: 2rem;
     
 }
 
 .activity-text{
     font-family: 'Inter', sans-serif;
-    font-size: var(--fs-sm);
-    line-height: 1.7;
-    max-width: 400px; 
+    font-size: 0.9rem;
+    line-height: 2;
+    max-width: 330px; 
+    position: relative;
+    right: .5rem;
+    bottom: 3.5rem;
 }
 
 .featured-dishes-title{
