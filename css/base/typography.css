@@ -2,18 +2,39 @@
     color: black;  
     font-size: clamp(var(--fs-lg), 4rem, var(--fs-xl));
     font-family: var(--ff-main);
-    left: 5rem;
+    
+    position: relative;
+    left: 12rem;
+    line-height: 6.2rem;
 }
 
 .hero-text{
     color: black;
     font-size: var(--fs-md);
-    width: clamp(30ch, 50%, 55ch);
-    margin: 0 auto 2rem;
-    
+    width: clamp(30ch, 50%, 49.5ch);
+    /* margin: 0 auto 3rem; */
+    text-align: left;
+    position: relative;
+    left: 12.2rem;
+    line-height: 2rem;
+    bottom: 2rem;   
 }
 
-.activity-title{
+.name-kimchis{
+    color: var(--clr-white);
+    font-family: 'Inter', sans-serif;
+    font-size:x-large;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    left: 9rem;
+}
+
+.dish-title{
     font-size: 1.6rem;
     font-family: var(--ff-main);
     position: relative;
@@ -21,7 +42,7 @@
     
 }
 
-.activity-text{
+.dish-text{
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
     line-height: 2;
@@ -45,6 +66,19 @@
     font-size: clamp(2rem, 2.25rem, var(--fs-lg));
     width: min(80%, 90%, 100%);
     margin: 0;
+}
+
+/* DISH HTML */
+
+.name-dish{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+   
+    position: relative;
+    left: 23rem;
+    bottom: 2.7rem;
+    
 }
 
 /*landscape less than 768*/

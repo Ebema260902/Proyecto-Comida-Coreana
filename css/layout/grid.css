@@ -1,4 +1,4 @@
-.activities-container{
+.dishes-container{
     display: grid;
     width: 78vw;
     height: 525px;
@@ -8,7 +8,7 @@
     bottom: 2rem;
 }
 
-.activity{
+.dish{
     display: grid;
     background: var(--clr-white);
     text-align: center;
