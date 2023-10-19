@@ -56,11 +56,9 @@
 
 .featured-dishes-title{
     font-family: 'Inter', sans-serif;
-    /* font-size: clamp(var(--fs-md, 1.875rem, var(--fs-lg))); */
     font-size: 3rem;
     width: 17ch;
     position: relative;
-    /* margin: 1rem auto; */
     left: 5.4rem;
 }
 
@@ -93,12 +91,11 @@
 }
 
 .text-individual-dish{
-    font-family: 'Inter', sans-serif;
     font-size: 16px;
     color: black;
     position: relative;
     left: 53.5%;
-    bottom: 9.4rem;
+    bottom: 8rem;
 }
 
 .features-text{
@@ -143,19 +140,19 @@
         text-align: center;
         position: relative; 
         left: .3rem;
-        bottom: 3rem;
+        bottom: 7rem;
     }
 
     .hero-text{ 
     color: black;
-    font-size: var(--fs-md);
+    font-size: var(--fs-s);
     width: clamp(30ch, 50%, 49.5ch);
     /* margin: 0 auto 3rem; */
     text-align: center;
     position: relative;
-    left: 3rem;
-    line-height: 2rem;
-    bottom: 2rem; 
+    left: 5.8rem;
+    line-height: 1rem;
+    bottom: 9rem; 
     }
 
     .name-kimchis{
@@ -171,5 +168,37 @@
         position: relative;
         left: 1.5rem;
     }
+
+    .featured-dishes-title{
+        font-size:2rem;
+        position: relative;
+        left: 4rem;
+        bottom: 5rem;
+    }
+
+    /*DISH*/
+    .name-dish{
+        position: relative;
+        left: 13.5rem;
+        top: 3.5rem;  
+    }
+
+    .text-individual-dish{
+        position: relative;
+        left: 29%;
+        top: 2.5999999999999996rem;
+    }
+
+    .features-text{
+        
+        font-size: 11px;
+        font-weight: normal;
+        color: black;
+        position: relative;
+        left: 11rem;  
+        bottom: 0rem;
+    }
+
+
 
 }

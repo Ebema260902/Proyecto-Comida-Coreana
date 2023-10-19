@@ -3,8 +3,17 @@
     display: flex;
     align-items: center;
     margin-top: auto;
-    margin-left: auto;
-  
+    margin-left: auto; 
+}
+
+.top-nav-corean{
+    background: #62331b;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-left: auto; 
+    position: relative;
+    left:4.3rem;
 }
 
 .nav-list{
@@ -76,7 +85,7 @@
         font-size: var(--fs-md);
         position: relative;
         left: 19.5rem;
-        bottom: 14.5rem;
+        bottom: 18rem;
      }
 
 }

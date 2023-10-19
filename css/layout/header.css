@@ -1,27 +1,27 @@
 .hero-container{
     width: 100%; 
-    /* background: url('../../imgs/header-camping.webp'); */
     background: #F5F5F5;
     background-position: center;
     background-size: cover;
-    /* border-bottom-left-radius: 6rem;
-    border-bottom-right-radius: 6rem; */
     color: var(--clr-white);
-    height: min(60rem, 50rem, 55rem);
+    height: min(60rem, 45rem, 55rem);
    
     width: 100%;
 }
 
 .hero-container-dish{
     width: 100%; 
-    /* background: url('../../imgs/header-camping.webp'); */
     background: #F5F5F5;
     background-position: center;
     background-size: cover;
-    /* border-bottom-left-radius: 6rem;
-    border-bottom-right-radius: 6rem; */
     color: var(--clr-white);
     height: min(60rem, 30rem, 55rem);
-   
     width: 100%;
+}
+
+
+@media (max-width: 767.98px){
+    .hero-container{
+        height: min(60rem, 33rem, 55rem);
+    }
 }

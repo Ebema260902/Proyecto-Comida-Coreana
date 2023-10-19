@@ -2,12 +2,9 @@
     display: flex;
     align-items: center;
     color: white;
-    text-decoration: none;
-
-    
+    text-decoration: none;  
 }
 
-/*body > header > nav > a > img*/
 .logo img{
  padding: 5px 20px;
 }
@@ -18,18 +15,12 @@
 }
 
 .texto-imagen{
-
  position: absolute;
  left: calc(100vw /2);
  top: calc(100vh/2) ;
-
-
  font-size: 5rem;
  color: aliceblue;
-    
 }
-
-
 
 .cartas{
     display: grid;
@@ -41,8 +32,6 @@
 .carta{
     padding: 20px;
     border: 1px grey solid;
-  
-    
     border-radius: 8px;
 }
 
@@ -59,14 +48,12 @@
     margin-top: 150px;
     text-align: center;
     font-size: 35px;
-
 }
 
 .carta .datos{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    
 }
 
 
