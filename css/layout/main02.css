@@ -1,0 +1,63 @@
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+/*body > header > nav > a > img*/
+.logo img{
+ padding: 5px 20px;
+}
+
+
+.imagen-menu{
+    width: 100%;
+}
+
+.texto-imagen{
+
+ position: absolute;
+ left: calc(100vw /2);
+ top: calc(100vh/2) ;
+
+
+ font-size: 5rem;
+ color: aliceblue;
+    
+}
+
+
+
+.cartas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.carta{
+    padding: 20px;
+    border: 1px grey solid;
+  
+    
+    border-radius: 8px;
+}
+
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.encabezado h3{
+    text-align: center;
+
+}
+
+.carta .datos{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
