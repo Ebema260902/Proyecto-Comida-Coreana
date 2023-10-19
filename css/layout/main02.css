@@ -36,13 +36,12 @@
     grid-template-columns: 1fr 1fr;
     width: 80%;
     margin: auto;
+
 }
 
 .carta{
     padding: 20px;
     border: 1px grey solid;
-  
-    
     border-radius: 8px;
 }
 
@@ -60,6 +59,9 @@
     text-align: center;
     font-size: 35px;
 
+}
+.encabezado img{
+    padding: 30px;
 }
 
 .carta .datos{
