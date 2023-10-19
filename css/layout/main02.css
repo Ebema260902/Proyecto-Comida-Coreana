@@ -5,6 +5,7 @@
     text-decoration: none;  
 }
 
+/*body > header > nav > a > img*/
 .logo img{
  padding: 5px 20px;
 }
@@ -16,8 +17,14 @@
 
 .texto-imagen{
  position: absolute;
- left: calc(100vw /2);
+<<<<<<< HEAD
+ 
+=======
+ left:  calc(100vw /2);
  top: calc(100vh/2) ;
+
+
+>>>>>>> 603d0f59b83e14d1a09bba53b809ade0e379bf52
  font-size: 5rem;
  color: aliceblue;
 }
@@ -27,12 +34,14 @@
     grid-template-columns: 1fr 1fr;
     width: 80%;
     margin: auto;
+
 }
 
 .carta{
-    padding: 20px;
+    padding: 5px;
     border: 1px grey solid;
     border-radius: 8px;
+    margin: 10px;
 }
 
 
@@ -49,12 +58,23 @@
     text-align: center;
     font-size: 35px;
 }
+.encabezado img{
+    padding: 30px;
+}
+.encabezado img{
+    padding: 30px;
+}
 
 .carta .datos{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+
+    
 }
+
+
+
 
 
 
