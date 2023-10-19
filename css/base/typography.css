@@ -134,4 +134,42 @@
     .subscribe-title{
         margin: auto;
     }
+
+    .hero-title{ 
+        font-size: var(--fs-lg);
+        font-family: var(--ff-main);
+        color: black; 
+        line-height: 4rem;
+        text-align: center;
+        position: relative; 
+        left: .3rem;
+        bottom: 3rem;
+    }
+
+    .hero-text{ 
+    color: black;
+    font-size: var(--fs-md);
+    width: clamp(30ch, 50%, 49.5ch);
+    /* margin: 0 auto 3rem; */
+    text-align: center;
+    position: relative;
+    left: 3rem;
+    line-height: 2rem;
+    bottom: 2rem; 
+    }
+
+    .name-kimchis{
+        color: var(--clr-white);
+        font-family: 'Inter', sans-serif;
+        font-size:x-large;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        gap: 1rem;
+        list-style-type: none;
+        text-decoration: none;
+        position: relative;
+        left: 1.5rem;
+    }
+
 }

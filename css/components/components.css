@@ -1,3 +1,10 @@
+.main-container{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
 
 .btn{
     display: flex;
@@ -68,6 +75,8 @@
     position: relative;
     left: 7rem;
 }
+
+
 
 
 .featured-dishes-container{
@@ -307,4 +316,49 @@
 
 .check:checked:before{
     background: #00a1ff;
+}
+
+
+@media (max-width: 767.98px){
+
+    .main-container{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .logo-image{
+        position: relative;
+        left: 1rem;
+    }
+
+    .image-header{
+        width: 24rem; 
+        height:20rem; 
+        opacity:20%;
+        overflow: hidden;
+        position: relative;
+        bottom: 36.7rem;
+        left: 0;
+        border-bottom-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .btn-login{
+        display: flex;
+        align-items: left;
+        padding: .5rem 2rem;
+        background: #83924B;
+        border-radius: .5rem;
+        text-decoration: none;
+    }
+    
+    .btn-sign-up{
+        display: flex;
+        align-items: left;
+        padding: .5rem 2rem;
+        background: #646B49;
+        border-radius: .5rem;
+        text-decoration: none;
+    }
 }
