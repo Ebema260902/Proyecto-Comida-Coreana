@@ -12,19 +12,25 @@
     display: flex;
     align-items: center;
     padding: 0;
-    gap: 1rem;
+    gap: 2rem;
     list-style-type: none;
-    margin-left: 12rem;
+    margin-left: 13rem;
 }
 
 .nav-list-login-btn{
     text-emphasis-color: black;
+    font-family: 'Inter', sans-serif;
     display: flex;
     align-items: center;
     padding: 0;
     gap: 1rem;
     list-style-type: none;
-    margin-left: 40rem;
+    margin-left: 36rem;
+}
+
+.arrow{
+    position: relative;
+    right: 1.5rem;
 }
 
 .nav-list-link{

@@ -3,6 +3,7 @@ html{
 }
 
 body{
+    overflow-x: hidden;
     background: white;
     font-family: var(--ff-secondary);
     display: grid;

@@ -1,11 +1,30 @@
 .footer-container{
     width: 100%; 
-    border-top-left-radius: 6rem;
-    border-top-right-radius: 6rem;
+    /* border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem; */
     color: var(--clr-white);
     margin: 2rem 0 0;
     display: grid;
     background: #62331b;
+    position: relative;
+    top: 7rem;
+}
+
+.footer-title{
+    font-size: 1.9rem;
+    position: relative;
+    bottom: .5rem;
+    letter-spacing: 2px; /
+}
+
+.footer-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    line-height: 1.9rem;
+    position: relative;
+    bottom: 1.5rem;
 }
 
 .footer-content{
@@ -23,8 +42,10 @@
 }
 
 .nav-footer-list{
+    display: grid;
     padding: 0;
     list-style-type: none;
+    gap: 1rem;
 }
 
 .nav-footer-link{
@@ -42,4 +63,14 @@
     display: grid;
     width: 80vw;
     margin: auto;
+}
+
+/* COREAN */
+
+.footer-text-corean{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    line-height: 1.9rem;
 }
