@@ -17,16 +17,13 @@
 
 .texto-imagen{
  position: absolute;
-<<<<<<< HEAD
  
-=======
- left:  calc(100vw /2);
- top: calc(100vh/2) ;
+ left: calc(100vw/2);
+ top: calc(100vh/2);
 
 
->>>>>>> 603d0f59b83e14d1a09bba53b809ade0e379bf52
  font-size: 5rem;
- color: aliceblue;
+ color: alice blue;
 }
 
 .cartas{
@@ -68,9 +65,7 @@
 .carta .datos{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-
-    
+    align-items: baseline; 
 }
 
 
