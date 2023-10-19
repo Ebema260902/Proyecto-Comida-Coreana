@@ -75,7 +75,10 @@
     text-align: center;
     position: relative;
     top: 9rem;
+    margin-bottom: 10rem;
 }
+
+
 
 
 
@@ -169,6 +172,16 @@
     border: 1px solid #000;
 }
 
+.individual-dish-price{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    position: relative;
+    left: 7.1rem;
+    bottom: 9.3rem;
+}
+
+
 .subscribe-image{
     display: block;
     margin: auto;
@@ -210,14 +223,88 @@
 }
 
 .dish-image-space{
-    max-width: 10rem;
+    max-width: 30rem;
     max-height: auto;
+    
     position: relative;
-    bottom: 22rem;
-    right: 18rem;
+    left: 6.5rem;
+    top: 3rem;
+   
 }
 
-/* .arrow-back{
-    width: 10px;
-    max-height: auto;
-} */
+.dish-container{
+    width:70rem;
+    height: 34rem;
+    background-color: white;
+    box-shadow: 10px;
+    border-radius: 1rem;
+    position: relative;
+    left: 13rem;
+    bottom: 4rem;
+}
+
+.individual-dish-logos{
+    display: flex;
+    gap: 8.5rem;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 8.9rem;
+    bottom: 1rem;
+}
+
+.arrow-back{
+    position: relative;
+    bottom: 82%;
+    left: 1rem;
+}
+
+/* CHECKBOX */
+
+.checkbox-container{
+    position: relative;
+    left: 70%;
+}
+
+.en{
+    color: #ffffff;
+}
+
+.co{
+    color: #00a1ff;
+}
+
+.check{
+    position: relative;
+    width: 50px;
+}
+
+.check:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+
+.check:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 0.25;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.check:checked:after{
+    left: 25px;
+    border: 2px solid #00a1ff;
+}
+
+.check:checked:before{
+    background: #00a1ff;
+}

@@ -37,6 +37,7 @@
 .dish-title{
     font-size: 1.6rem;
     font-family: var(--ff-main);
+    color: black;
     position: relative;
     bottom: 2rem;
     
@@ -47,6 +48,7 @@
     font-size: 0.9rem;
     line-height: 2;
     max-width: 330px; 
+    color: black;
     position: relative;
     right: .5rem;
     bottom: 3.5rem;
@@ -62,6 +64,16 @@
     left: 5.4rem;
 }
 
+.related-dishes-title{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 3rem;
+    width: 17ch;
+    position: relative;
+    left: 9rem;
+    top: 9rem;
+}
+
 .subscribe-title{
     font-size: clamp(2rem, 2.25rem, var(--fs-lg));
     width: min(80%, 90%, 100%);
@@ -71,15 +83,50 @@
 /* DISH HTML */
 
 .name-dish{
-    font-family: 'Inter', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif, solid;
+    font-size: 1.7rem;
+    font-weight:550; 
     color: black;
-   
     position: relative;
-    left: 23rem;
-    bottom: 2.7rem;
-    
+    left: 37.5rem;
+    top: 6.5rem;  
 }
+
+.text-individual-dish{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: black;
+    position: relative;
+    left: 53.5%;
+    bottom: 9.4rem;
+}
+
+.features-text{
+    display: flex;
+    gap:5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+    position: relative;
+    left: 6.9rem;  
+    bottom: 5rem;
+}
+
+/* COREAN */
+
+.features-text-corean{
+    display: flex;
+    gap:7rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+    position: relative;
+    left: 7.5rem;  
+    bottom: 5rem;
+}
+
 
 /*landscape less than 768*/
 @media (max-width: 767.98px){

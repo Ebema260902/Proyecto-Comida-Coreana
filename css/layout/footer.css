@@ -18,8 +18,13 @@
 }
 
 .footer-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    line-height: 1.9rem;
     position: relative;
-    line-height: 20rem;
+    bottom: 1.5rem;
 }
 
 .footer-content{
@@ -58,4 +63,14 @@
     display: grid;
     width: 80vw;
     margin: auto;
+}
+
+/* COREAN */
+
+.footer-text-corean{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    line-height: 1.9rem;
 }
