@@ -16,7 +16,8 @@
     margin: 2rem auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
-    bottom: 2rem;
+    position: relative;
+    top: 12rem;
 }
 
 
@@ -111,6 +112,7 @@
         position: relative;
         left: 1rem;
         border: 10px, solid;
+        bottom: 20rem;
     }
 }
 
