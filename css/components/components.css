@@ -395,12 +395,12 @@
 @media (min-height: 425px) and (max-width: 747px){
 
 
-    .main-container-dish{
+    /* .main-container-dish{
         width: 100%;
         height: auto;
         margin: 0 auto;
         overflow: hidden;
-    }
+    } */
 
     .image-header{
         width: 100%; 
