@@ -22,7 +22,7 @@
 }
 
 
-/* Media query targeting screens with a maximum width of 767.98 pixels. */
+Media query targeting screens with a maximum width of 767.98 pixels.
 @media (max-width: 767.98px){
     .hero-container{
         height: min(60rem, 33rem, 55rem);
