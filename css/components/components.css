@@ -442,8 +442,7 @@
 @media (min-height: 1190px) and (max-width: 1800px) {
     .btn-sign-up{
         width: 4rem;
-    }
-    
+    } 
 }
 
 /* Styles for screens min height 1080and max width 1920px (Desktop) */
