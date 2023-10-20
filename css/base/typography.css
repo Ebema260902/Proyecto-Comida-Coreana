@@ -1,18 +1,18 @@
+/* Style for the title in the hero section */
 .hero-title{  
     color: black;  
-    font-size: clamp(var(--fs-lg), 4rem, var(--fs-xl));
+    font-size: clamp(var(--fs-lg), 4rem, var(--fs-xl)); /* Adaptable font size */
     font-family: var(--ff-main);
-    
     position: relative;
     left: 12rem;
     line-height: 6.2rem;
 }
 
+/* Style for the text in the hero section */
 .hero-text{
     color: black;
     font-size: var(--fs-md);
-    width: clamp(30ch, 50%, 49.5ch);
-    /* margin: 0 auto 3rem; */
+    width: clamp(30ch, 50%, 49.5ch); /* Adaptable width with limits */
     text-align: left;
     position: relative;
     left: 12.2rem;
@@ -20,10 +20,12 @@
     bottom: 2rem;   
 }
 
+
+/* Style for the "Kimchis" name in the navigation bar */
 .name-kimchis{
     color: var(--clr-white);
-    font-family: 'Inter', sans-serif;
-    font-size:x-large;
+    font-family: 'Inter', sans-serif; 
+    font-size:x-large; /* Large font size */
     display: flex;
     align-items: center;
     padding: 0;
@@ -34,6 +36,8 @@
     left: 9rem;
 }
 
+
+/* Style for the dish title in menu sections */
 .dish-title{
     font-size: 1.6rem;
     font-family: var(--ff-main);
@@ -43,6 +47,8 @@
     
 }
 
+
+/* Style for the dish text in menu sections */
 .dish-text{
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
@@ -54,6 +60,7 @@
     bottom: 3.5rem;
 }
 
+/* Style for the title of featured dishes */
 .featured-dishes-title{
     font-family: 'Inter', sans-serif;
     font-size: 3rem;
@@ -62,6 +69,7 @@
     left: 5.4rem;
 }
 
+/* Style for the title of related dishes */
 .related-dishes-title{
     font-family: 'Inter', sans-serif;
     color: black;
@@ -72,14 +80,10 @@
     top: 9rem;
 }
 
-.subscribe-title{
-    font-size: clamp(2rem, 2.25rem, var(--fs-lg));
-    width: min(80%, 90%, 100%);
-    margin: 0;
-}
 
 /* DISH HTML */
 
+/* Style for the name of the dish in individual dish page */
 .name-dish{
     font-family: 'Inter', sans-serif, solid;
     font-size: 1.7rem;
@@ -90,6 +94,7 @@
     top: 6.5rem;  
 }
 
+/* Style for the text of the individual dish in individual dish page */
 .text-individual-dish{
     font-size: 16px;
     color: black;
@@ -98,6 +103,7 @@
     bottom: 8rem;
 }
 
+/* Style for the features text in individual dish page */
 .features-text{
     display: flex;
     gap:5rem;
@@ -110,9 +116,10 @@
     bottom: 5rem;
 }
 
-/* COREAN */
+/* KOREAN */
 
-.features-text-corean{
+/* Style for the features text in Korean version in individual dish page */
+.features-text-korean{
     display: flex;
     gap:7rem;
     font-family: 'Inter', sans-serif;
@@ -125,12 +132,8 @@
 }
 
 
-/*landscape less than 768*/
+/* Styles for screens less than 768px wide */
 @media (max-width: 767.98px){
-   
-    .subscribe-title{
-        margin: auto;
-    }
 
     .hero-title{ 
         font-size: var(--fs-lg);
@@ -144,15 +147,15 @@
     }
 
     .hero-text{ 
-    color: black;
-    font-size: var(--fs-s);
-    width: clamp(30ch, 50%, 49.5ch);
-    /* margin: 0 auto 3rem; */
-    text-align: center;
-    position: relative;
-    left: 5.8rem;
-    line-height: 1rem;
-    bottom: 9rem; 
+        color: black;
+        font-size: var(--fs-s);
+        width: clamp(30ch, 50%, 49.5ch);
+        /* margin: 0 auto 3rem; */
+        text-align: center;
+        position: relative;
+        left: 5.8rem;
+        line-height: 1rem;
+        bottom: 9rem; 
     }
 
     .name-kimchis{
@@ -199,6 +202,27 @@
         bottom: 0rem;
     }
 
+}
+
+
+/* Styles for screens higher than 1366px wifht and 952px height (iPhone 12/13 Pro Max, 14 Plus) */
+@media (max-width: 747px) {
+    .hero-text{ 
+        color: black;
+        font-size: var(--fs-s);
+        width: clamp(30ch, 50%, 49.5ch);
+        text-align: center;
+        position: relative;
+        left: 7rem;
+        line-height: 1rem;
+        bottom: 9rem; 
+    }
+
+    .featured-dishes-title{
+        position: relative;
+        left: 20%;
+    }
 
 
 }
+

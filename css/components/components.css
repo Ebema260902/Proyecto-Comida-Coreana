@@ -1,11 +1,19 @@
+/* Defines a container with 100% width, centered horizontally on the page. 
+   Hides overflowing content. */
 .main-container{
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
 
+.main-container-dish{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
 
 
+/* Styles for buttons */
 .btn{
     color: var(--clr-white);
     text-decoration: none;
@@ -20,6 +28,8 @@
     right: 25rem;
 }
 
+
+/* Styles for login button  */
 .btn-login{
     display: flex;
     align-items: center;
@@ -29,6 +39,8 @@
     text-decoration: none;
 }
 
+
+/*  Styles for sign-up button */
 .btn-sign-up{
     display: flex;
     align-items: center;
@@ -38,17 +50,8 @@
     text-decoration: none;
 }
 
-.view-all-btn{
-    background: var(--clr-main-bg);
-    color: var(--clr-main);
-    margin-top: 1rem;
-    border: .1rem solid var(--clr-main);
-}
 
-.activity-icon{
-    margin: auto;
-}
-
+/* Styles for the green circle in featured dishes*/
 .green-circle {
     width: 540px; 
     height: 540px; 
@@ -63,6 +66,8 @@
     z-index: -1; 
 }
 
+
+/* Styles for main image in the homepage */
 .image-header{
     width: 55rem; 
     height:45.6rem; 
@@ -73,27 +78,22 @@
     border-bottom-left-radius: 5rem;
 }
 
+
+/* Styles for the kimchis logo */
 .logo-image{
-    
     position: relative;
     left: 7rem;
 }
 
-
-
-
+/*Container for featured dishes in a grid layout */
 .featured-dishes-container{
     display: grid;
     position: relative;
-    top: 7rem;
+    
     margin-bottom: 11rem;
 }
 
-
-
-
-
-
+/* Cart and info buttons with background images and specific positioning. */
 .btn-cart,
 .btn-info {
     display: flex;
@@ -108,6 +108,7 @@
     background-size: cover; 
 }
 
+/* Specific styles for the cart button */
 .btn-cart {
     margin: auto;
     padding: 1.1rem 2rem;
@@ -119,6 +120,7 @@
     background-size: cover;
 }
 
+/* Specific styles for the information button */
 .btn-info {
     margin: auto;
     padding: 1.1rem 2rem;
@@ -131,23 +133,21 @@
 }
 
 
-
-
-
+/* Icon with maximum size and specific right margin. */
 .icon-img {
     max-width: 20px; 
     max-height:20px;
     margin-right: 5px;   
 }
 
-
-
+/* Dish thumbnails with relative positioning and padding. */
 .dish-thumb{
     display: flex;
     position: relative;
     padding: 0 1rem;
 }
 
+/* Styles for the dish image */
 .dish-image{
     display: block;
     width: 237px;
@@ -158,15 +158,7 @@
     bottom: 4rem;
 }
 
-.like-btn{
-    position: absolute;
-    background: var(--clr-white);
-    border: none;
-    border-radius: .5rem;
-    top: 1rem;
-    right: 2rem;
-}
-
+/* Dish price label with absolute position and specific styles. */
 .dish-price{
     display: block;
     position: absolute;
@@ -183,6 +175,8 @@
     border: 1px solid #000;
 }
 
+
+/* Individual dish price with specific font, size, color, and position. */
 .individual-dish-price{
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
@@ -193,19 +187,7 @@
 }
 
 
-.subscribe-image{
-    display: block;
-    margin: auto;
-    width: 75%;
-    margin-top: 2rem;
-}
-
-.main-image{
-    position: absolute;
-    top: 54px;
-    left: 177px;
-}
-
+/* Style for the decoration image */
 .bowl-img{
     position: relative;
     width: 300px;
@@ -213,35 +195,19 @@
 }
 
 
-.submit-btn{
-    background: url(../imgs/icons/send.svg) var(--clr-main);
-    border: none;
-    padding: .75rem 1.25rem;
-    border-radius: .75rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
-
-
 /* DISH HTML */
-.frame-dish{
-    max-width: 30rem;
-    max-height: auto;
-    position: relative;
-    left: 56%;
-    bottom: 12rem;
-}
 
+/* Image space in the dish page */
 .dish-image-space{
     max-width: 30rem;
     max-height: auto;
     position: relative;
     left: 6.5rem;
     top: 3rem;
-   
 }
 
+
+/* container of the individual dish in Dish page */
 .dish-container{
     width:70rem;
     height: 34rem;
@@ -253,6 +219,7 @@
     bottom: 0rem;
 }
 
+/* styles for the logos from features in the individual dish */
 .individual-dish-logos{
     display: flex;
     gap: 8.5rem;
@@ -263,6 +230,7 @@
     bottom: 1rem;
 }
 
+/* style for the arrow to come back to the homepage */
 .arrow-back{
     position: relative;
     bottom: 82%;
@@ -270,26 +238,30 @@
 }
 
 /* CHECKBOX */
-
+/* Position for the checkbox to change language */
 .checkbox-container{
     position: relative;
     left: 70%;
 }
 
+/* defines color for "english" text */
 .en{
     color: #ffffff;
 }
 
+/* defines color for "korean" text */
 .co{
     color: #00a1ff;
 }
 
+/* defines position of the check */
 .check{
     position: relative;
     width: 50px;
     bottom: 5px;
 }
 
+/* Styles for the check before clicked */
 .check:before{
     content: '';
     position: absolute;
@@ -299,6 +271,7 @@
     border-radius: 25px;
 }
 
+/* Styles for the check after clicked  */
 .check:after{
     content: '';
     position: absolute;
@@ -311,18 +284,20 @@
     box-sizing: border-box;
 }
 
+/* Styles for checkbox element when it is checked. */
 .check:checked:after{
     left: 25px;
     border: 2px solid #00a1ff;
 }
 
+/* Styles for the checkbox element's background when it is checked.*/
 .check:checked:before{
     background: #00a1ff;
 }
 
 
+/* Media query targeting screens with a maximum width of 767.98 pixels. */
 @media (max-width: 767.98px){
-
     .main-container{
         width: 100%;
         margin: 0 auto;
@@ -346,11 +321,6 @@
         border-bottom-right-radius: 5rem;
     }
 
-    /* .btn{
-        border-radius: .4rem;
-        position: relative;
-        left: 25rem;
-    } */
 
     .btn-login{
         display: flex;
@@ -420,3 +390,56 @@
     }
    
 }
+
+/* Styles for screens min height 425 and max width 747px (iPhone 12/13 Pro Max, 14 Plus) */
+@media (min-height: 425px) and (max-width: 747px){
+
+
+    .main-container-dish{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .image-header{
+        width: 100%; 
+        height:20rem; 
+        opacity:20%;
+        overflow: hidden;
+        position: relative;
+        bottom: 33rem;
+        left: 0;
+        border-bottom-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .btn{
+        color: var(--clr-white);
+        text-decoration: none;
+        font-size: var(--fs-md);
+        display: flex;
+        align-items: center;
+        padding: .5rem 2rem;
+        background: #646B49;
+        border-radius: .4rem;
+        text-decoration: none;
+        position: relative;
+        right: 0;
+        bottom: 9rem;
+    }
+
+    .featured-dishes-container{
+        display: grid;
+        position: relative;
+        margin-bottom: 11rem;
+    }
+
+}
+
+
+/* Styles for screens min height 1210and max width 1800px (Galaxy Tab 10.1) */
+@media (min-height: 1190px) and (max-width: 1800px) {
+    
+}
+
