@@ -16,7 +16,7 @@
  padding: 5px 20px;
 }
 
-/*Imagen container*/
+/*Imagen Inicio*/
 .img-container{
     width: 100%;
 }
@@ -89,13 +89,6 @@
     left: 80%;
 }
 
-@media (min-height: 1080px) and (max-width: 1920px){
-    .img-container{
-        position: relative;
-
-        left: 45rem;
-    }
-}
 
 
 
