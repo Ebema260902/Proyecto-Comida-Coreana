@@ -1,3 +1,18 @@
+.rectangulo{
+    position: absolute;
+    background-color: #AB473E;
+    top: 130px;
+    left: 0px; 
+    width: 1300px; 
+    height: 120px;
+}
+
+.rectangulo h1{
+    line-height: 40px; 
+    color: white;
+    font-size: 50px;
+    
+}
 .logo{
     display: flex;
     align-items: center;
@@ -18,12 +33,12 @@
 .texto-imagen{
  position: absolute;
  
- left: calc(100vw/2);
- top: calc(100vh/2);
+ left: 600px;
+ top: 400px;
 
 
- font-size: 5rem;
- color: alice blue;
+ font-size: 10rem;
+ color: white;
 }
 
 .cartas{
