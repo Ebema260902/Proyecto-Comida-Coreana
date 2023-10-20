@@ -87,6 +87,8 @@
 .button{
     position: relative;
     left: 80%;
+    border: none;
+    background: none;
 }
 
 
