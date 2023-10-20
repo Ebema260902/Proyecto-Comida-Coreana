@@ -440,6 +440,22 @@
 
 /* Styles for screens min height 1210and max width 1800px (Galaxy Tab 10.1) */
 @media (min-height: 1190px) and (max-width: 1800px) {
+    .btn-sign-up{
+        width: 4rem;
+    }
     
 }
+
+
+
+/* Styles for screens min height 1080and max width 1920px (Desktop) */
+@media (min-height: 1070px) and (max-width: 1930px) {
+    .image-header{
+        position: relative;
+        left: 50rem;
+        width: 70rem;
+    }
+}
+
+
 

@@ -109,3 +109,13 @@
      }
     
 }
+
+
+/* Styles for screens min height 1210and max width 1800px (Galaxy Tab 10.1) */
+@media (min-height: 1190px) and (max-width: 1800px) {
+    .nav-list-login-btn{
+        width: 20px;
+        position: relative;
+        right: 12rem;
+    }
+}
