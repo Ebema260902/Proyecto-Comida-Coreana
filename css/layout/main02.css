@@ -1,4 +1,37 @@
-.rectangulo{
+/*Logo y titulo de la página*/
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;  
+    position: relative;
+    left:6%
+}
+
+.logo span{
+    font-size: x-large;
+}
+
+.logo img{
+ padding: 5px 20px;
+}
+
+/*Imagen container*/
+.img-container{
+    width: 100%;
+}
+
+.txt-container{
+ position: absolute;
+ left: 600px;
+ top: 400px;
+ font-size: 10rem;
+ color: white;
+}
+
+/*Rectangulo container*/
+
+.rectangle{
     position: absolute;
     background-color: #AB473E;
     top: 130px;
@@ -7,41 +40,17 @@
     height: 120px;
 }
 
-.rectangulo h1{
+.rectangle h1{
+    position: relative;
     line-height: 40px; 
     color: white;
     font-size: 50px;
+    left: 10%;
     
 }
-.logo{
-    display: flex;
-    align-items: center;
-    color: white;
-    text-decoration: none;  
-}
 
-/*body > header > nav > a > img*/
-.logo img{
- padding: 5px 20px;
-}
-
-
-.imagen-menu{
-    width: 100%;
-}
-
-.texto-imagen{
- position: absolute;
- 
- left: 600px;
- top: 400px;
-
-
- font-size: 10rem;
- color: white;
-}
-
-.cartas{
+/*Platillos*/
+.cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 80%;
@@ -49,7 +58,7 @@
 
 }
 
-.carta{
+.card{
     padding: 5px;
     border: 1px grey solid;
     border-radius: 8px;
@@ -58,7 +67,7 @@
 }
 
 
-.encabezado{
+.category-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,23 +75,28 @@
     margin: auto;
 }
 
-.encabezado h3{
+.category-container h3{
     margin-top: 150px;
     text-align: center;
     font-size: 35px;
 }
-.encabezado img{
-    padding: 30px;
-}
-.encabezado img{
+.category-container img{
     padding: 30px;
 }
 
-.carta .datos{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline; 
+.button{
+    position: relative;
+    left: 80%;
 }
+
+@media (min-height: 1080px) and (max-width: 1920px){
+    .img-container{
+        position: relative;
+
+        left: 45rem;
+    }
+}
+
 
 
 
