@@ -296,6 +296,36 @@
 }
 
 
+
+/*specifications.php*/
+
+.main-container{
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    background-color: rgb(171, 165, 165);
+}
+
+.container-dish-elements{
+    overflow-x: hidden;
+    width:46rem;
+    height: 60rem;
+    position: relative;
+    background-color: rgb(239, 232, 232);
+    box-shadow: 10px;
+    border-radius: 1rem;
+    left: 10%;
+    top: 8rem;
+}
+
+.image-element{
+    position: relative;
+    left: 15%;
+    top: 5rem;
+    border-radius: 2rem;
+}
+
+
 /* Media query targeting screens with a maximum width of 767.98 pixels. */
 @media (max-width: 767.98px){
     .main-container{
