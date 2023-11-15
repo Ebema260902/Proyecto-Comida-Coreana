@@ -28,6 +28,35 @@
     right: 25rem;
 }
 
+.btn-get-started{
+    color: var(--clr-white);
+    text-decoration: none;
+    font-size: var(--fs-md);
+    display: flex;
+    align-items: center;
+    padding: .5rem 2rem;
+    background: #646B49;
+    border-radius: .4rem;
+    text-decoration: none;
+    position: relative;
+    right: 32rem;
+}
+
+.btn-get-started-homepage{
+    color: var(--clr-white);
+    text-decoration: none;
+    font-size: var(--fs-md);
+    display: flex;
+    align-items: center;
+    padding: .5rem 2rem;
+    background: #646B49;
+    border-radius: .4rem;
+    text-decoration: none;
+    position: relative;
+    right: 32rem;
+}
+
+
 
 /* Styles for login button  */
 .btn-login{
@@ -74,7 +103,17 @@
     overflow: hidden;
     position: relative;
     bottom: 37.5rem;
-    left: 45rem;
+    left: 55rem;
+    border-bottom-left-radius: 5rem;
+}
+
+.image-header-homepage{
+    width: 55rem; 
+    height:45.6rem; 
+    overflow: hidden;
+    position: relative;
+    bottom: 37.5rem;
+    left: 55rem;
     border-bottom-left-radius: 5rem;
 }
 
@@ -145,6 +184,7 @@
     display: flex;
     position: relative;
     padding: 0 1rem;
+    
 }
 
 /* Styles for the dish image */
@@ -154,7 +194,7 @@
     height: 130px;
     border-radius: 1rem;
     position: relative;
-    right: .4rem;
+    left: .6rem;
     bottom: 4rem;
 }
 
@@ -192,6 +232,7 @@
     position: relative;
     width: 300px;
     height: 300px;
+    top: 11rem;
 }
 
 
@@ -299,24 +340,45 @@
 
 /*specifications.php*/
 
-.main-container{
-    overflow-x: hidden;
+
+.image-header-in-specifications{
+    width: 55rem; 
+    height:45.6rem; 
+    overflow: hidden;
+    position: relative;
+    bottom: 37.5rem;
+    left: 55rem;
+    border-bottom-left-radius: 5rem;
+}
+
+/* COLUMN 1 */
+.main-container-dish{
     width: 100%;
     height: auto;
-    background-color: rgb(171, 165, 165);
+    background-color: #F5F5F5;
+    
 }
+
+.container-wrapper {
+    display: flex;
+    gap: 20rem;
+    position: relative;
+
+    left: 5rem;
+  }
 
 .container-dish-elements{
     overflow-x: hidden;
-    width:46rem;
-    height: 60rem;
+    width:45rem;
+    height: 85rem;
     position: relative;
-    background-color: rgb(239, 232, 232);
-    box-shadow: 10px;
+    background-color: white;
     border-radius: 1rem;
-    left: 10%;
+    left: 8%;
     top: 8rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
 }
+
 
 .image-element{
     position: relative;
@@ -324,6 +386,203 @@
     top: 5rem;
     border-radius: 2rem;
 }
+
+
+.container-image-element{
+    overflow-x: hidden;
+    width:40rem;
+    height: 25rem;
+    position: relative;
+    background-color: rgb(224, 219, 219);
+    border-radius: 1rem;
+    left: 5.7%;
+    top: 5rem;
+    z-index: 0;
+
+}
+
+.container-logos{
+    display: flex;
+    gap: 12rem;
+    position: relative;
+    top: 6rem;
+    left: 8.5%;
+    z-index: 1;
+}
+
+.logo-element{
+    width: 4rem;
+    height: auto;
+}
+
+.logo-element-family{
+    width: 5rem;
+    height: 3rem;
+    position: relative;
+    top: .5rem;
+}
+
+.logo-element-main{
+    width: 4rem;
+    height: auto;
+    position: relative;
+    right: 1rem;
+}
+
+.element-dish-name{
+    font-size:2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    position: relative;
+    top: 9rem;
+    left: 33%;
+}
+
+.container-text{
+    display: flex;
+    gap: 10rem;
+    position: relative;
+    top: 6rem;
+    left: 9%;
+    z-index: 1;
+}
+
+.text-feature{
+    font-size:1.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+    position: relative;
+}
+.text-feature-main{
+    font-size:1.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+    position: relative;
+    right:.4rem;
+}
+.text-feature-featured{
+    font-size:1.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+    position: relative;
+    left: .6rem;
+}
+
+.element-price{
+    font-size:2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+    position: relative;
+    top: 8.5rem;
+    left: 40%;
+}
+
+.description-dish{
+    font-size:20px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 8rem;
+    right: 1rem;
+}
+
+/* COLUMN 2 */
+
+.container-specifications{
+    overflow-x: hidden;
+    overflow: hidden;
+    width:35rem;
+    height: 85rem;
+    position: relative;
+    background-color: white;
+    border-radius: 1rem;
+    right: 8rem;
+    top: 8rem;
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+    z-index: 0;
+}
+
+
+.text-specifications{
+    font-size:2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight:bold;
+    position: relative;
+    left: 10.5rem;
+   
+    z-index: 2;
+}
+.text-subtitles{
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    left: 3rem;
+    z-index: 2;
+}
+
+.sauce-items{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin: 3rem 0;
+    align-items: center;
+    height: 2rem;
+    position: relative;
+    left: 3rem;
+    z-index: 2; 
+    
+}
+
+
+
+.label-suace{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.input-sauce{
+    width: 8rem;
+    border-radius: 1rem;
+    position: relative;
+    margin: 0;
+}
+
+.line-div{
+    position: relative;
+    z-index: 2;
+    left: 2rem;
+}
+
+.total-price{
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    left: 26rem;
+    bottom: 3rem;
+    z-index: 2;
+}
+
+.btn-add-to-cart{
+    color: var(--clr-white);
+    text-decoration: none;
+    font-size: var(--fs-md);
+    display: flex;
+    align-items: center;
+    padding: .5rem 2rem;
+    background: #646B49;
+    border-radius: .4rem;
+    text-decoration: none;
+    position: relative;
+    bottom: 2rem;
+}
+
+
+    
+
+
 
 
 /* Media query targeting screens with a maximum width of 767.98 pixels. */
@@ -340,6 +599,17 @@
     }
 
     .image-header{
+        width: 24rem; 
+        height:20rem; 
+        opacity:20%;
+        overflow: hidden;
+        position: relative;
+        bottom: 33rem;
+        left: 0;
+        border-bottom-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+    .image-header-homepage{
         width: 24rem; 
         height:20rem; 
         opacity:20%;
@@ -418,6 +688,270 @@
         bottom: 70%;
         left: 2rem;
     }
+
+
+
+    /* SPECIFICATIONS.PHP */
+
+    .image-header-in-specifications{
+        width: 100%; 
+        height:20rem; 
+        opacity:20%;
+        overflow: hidden;
+        position: relative;
+        bottom: 27rem;
+        left: 0;
+        z-index: 1;
+        border-bottom-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
+    .container-wrapper {
+        display: grid;
+        gap: 20rem;
+        position: relative;
+    
+        left: 5rem;
+      }
+    
+      /* COLUMN 1 */
+                .main-container-dish{
+                    width: 115%;
+                    height: auto;
+                    background-color: #F5F5F5;
+                    position: relative;
+                    right: 1.5rem;
+                    bottom: 1rem;
+                    
+                }
+
+                .container-dish-elements{
+                    overflow-x: hidden;
+                    width:20rem;
+                    height: 55rem;
+                    position: relative;
+                    background-color: white;
+                    border-radius: 1rem;
+                    left: 0%;
+                    top: 8rem;
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+                }
+
+
+                .image-element{
+                    position: relative;
+                    left: 15%;
+                    top: 5rem;
+                    border-radius: 2rem;
+                }
+
+
+                .container-image-element{
+                    overflow-x: hidden;
+                    width:18rem;
+                    height: 15rem;
+                    position: relative;
+                    background-color: rgb(224, 219, 219);
+                    border-radius: 1rem;
+                    left: 5.7%;
+                    top: 5rem;
+                    z-index: 0;
+
+                }
+
+                .container-logos{
+                    display: flex;
+                    gap: 4.5rem;
+                    position: relative;
+                    top: 6rem;
+                    left: 3rem;
+                    z-index: 1;
+                }
+
+                .logo-element{
+                    width: 2.3rem;
+                    height: 2.5rem;
+                    position: relative;
+                    top: .3rem;
+                    right: 1.5rem;
+                }
+
+                .logo-element-family{
+                    width: 2.6rem;
+                    height: 2rem;
+                    position: relative;
+                    top: .5rem;
+                }
+
+                .logo-element-main{
+                    width: 2rem;
+                    height: 3rem;
+                    position: relative;
+                    right: 1rem;
+                }
+
+                .element-dish-name{
+                    font-size:1rem;
+                    font-family: 'Inter', sans-serif;
+                    font-weight:bold;
+                    position: relative;
+                    top: 9rem;
+                    left: 33%;
+                }
+
+                .container-text{
+                    display: flex;
+                    gap: 2.8rem;
+                    position: relative;
+                    top: 6rem;
+                    left: 15%;
+                    z-index: 1;
+                }
+
+                .text-feature{
+                    font-size:.7rem;
+                    font-family: 'Inter', sans-serif;
+                    font-weight:500;
+                    position: relative;
+                    
+                }
+                .text-feature-main{
+                    font-size:.7rem;
+                    font-family: 'Inter', sans-serif;
+                    font-weight:500;
+                    position: relative;
+                    right:.4rem;
+                }
+                .text-feature-featured{
+                    font-size:.7rem;
+                    font-family: 'Inter', sans-serif;
+                    font-weight:500;
+                    position: relative;
+                    right: 1rem;
+                    
+                }
+
+                .element-price{
+                    font-size:1.5rem;
+                    font-family: 'Inter', sans-serif;
+                    font-weight:500;
+                    position: relative;
+                    top: 8.5rem;
+                    left: 40%;
+                }
+
+                .description-dish{
+                    font-size:15px;
+                    font-family: 'Inter', sans-serif;
+                    max-width: 17rem;
+                    text-align: center;
+                    position: relative;
+                    top: 8rem;
+                    left: 1.5rem;
+                }
+
+                            /* COLUMN 2 */
+
+                            .container-specifications{
+                                overflow-x: hidden;
+                                width:20rem;
+                                height: 85rem;
+                                position: relative;
+                                background-color: white;
+                                border-radius: 1rem;
+                                left: 0%;
+                                top: 1rem;
+                                box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+                            }
+
+
+                            .text-specifications{
+                                font-size:2rem;
+                                font-family: 'Inter', sans-serif;
+                                font-weight:bold;
+                                position: relative;
+                                left: 3rem;
+                            
+                                z-index: 2;
+                            }
+                            .text-subtitles{
+                                font-size: 1.5rem;
+                                font-family: 'Inter', sans-serif;
+                                position: relative;
+                                left: 2rem;
+                                z-index: 2;
+                            }
+
+                            .sauce-items{
+                                display: grid;
+                                grid-auto-flow: column;
+                                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+                                margin: 3rem 0;
+                                align-items: center;
+                                height: 2rem;
+                                position: relative;
+                                left: 1rem;
+                                z-index: 2; 
+                                
+                            }
+
+
+
+                            .label-suace{
+                                font-size: 1rem;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: lighter;
+                                margin: 0;
+                            }
+
+                            .input-sauce{
+                                width: 8rem;
+                                border-radius: 1rem;
+                                position: relative;
+                                margin: 0;
+                            }
+
+                            .line-div{
+                                position: relative;
+                                z-index: 2;
+                                left: 2rem;
+                            }
+
+                            .total-price{
+                                font-size: 1.5rem;
+                                font-family: 'Inter', sans-serif;
+                                position: relative;
+                                left: 16rem;
+                                bottom: 3rem;
+                                z-index: 2;
+                            }
+                            .btn-get-started{
+                                color: var(--clr-white);
+                                text-decoration: none;
+                                font-size: var(--fs-md);
+                                display: flex;
+                                align-items: center;
+                                padding: .5rem 2rem;
+                                background: #646B49;
+                                border-radius: .4rem;
+                                text-decoration: none;
+                                position: relative;
+                                right: 0rem;
+                                bottom: 3rem;
+                            }
+            .image-header-in-specifications{
+                width: 100%; 
+                height:20rem; 
+                opacity:20%;
+                overflow: hidden;
+                position: relative;
+                bottom: 35rem;
+                left: 0;
+                z-index: 1;
+                border-bottom-left-radius: 5rem;
+                border-bottom-right-radius: 5rem;
+            }
+
    
 }
 
@@ -432,7 +966,31 @@
         overflow: hidden;
     } */
 
+    .image-header-in-specifications{
+        width: 100%; 
+        height:20rem; 
+        opacity:20%;
+        overflow: hidden;
+        position: relative;
+        bottom: 24rem;
+        left: 0;
+        z-index: 1;
+        border-bottom-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+
     .image-header{
+        width: 100%; 
+        height:20rem; 
+        opacity:20%;
+        overflow: hidden;
+        position: relative;
+        bottom: 33rem;
+        left: 0;
+        border-bottom-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+    .image-header-homepage{
         width: 100%; 
         height:20rem; 
         opacity:20%;
@@ -469,10 +1027,16 @@
 
 
 /* Styles for screens min height 1210and max width 1800px (Galaxy Tab 10.1) */
-@media (min-height: 1190px) and (max-width: 1800px) {
+@media (min-height:1792px) and (max-width: 1200px) {
     .btn-sign-up{
         width: 4rem;
     } 
+
+    .btn-get-started-homepage{
+        right: 10rem;
+    }
+
+   
 }
 
 /* Styles for screens min height 1080and max width 1920px (Desktop) */
@@ -482,7 +1046,25 @@
         left: 50rem;
         width: 70rem;
     }
-}
 
+    .image-header-in-specifications{
+        width: 55rem; 
+        height:45.6rem; 
+        overflow: hidden;
+        position: relative;
+        bottom: 37.5rem;
+        left: 70rem;
+        border-bottom-left-radius: 5rem;
+    }
+    .image-header-homepage{
+        position: relative;
+        left: 50rem;
+        width: 70rem;
+        position: relative;
+        right: 4rem;
+        bottom: 20rem;
+    }
+
+}
 
 

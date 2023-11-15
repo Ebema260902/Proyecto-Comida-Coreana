@@ -36,16 +36,16 @@
             </nav>
             
             <Section>
-                <h1 class="hero-title">Experience <br> Korean <br> Cuisine</h1>
+                <h1 class="hero-title-homepage">Experience <br> Korean <br> Cuisine</h1>
                 <div>
-                    <p class="hero-text">Indulge in the vibrant and flavorful world of Korean gastronomy, where each dish is a masterpiece.</p>
+                    <p class="hero-text-homepage">Indulge in the vibrant and flavorful world of Korean gastronomy, where each dish is a masterpiece.</p>
                 </div>
 
                 <div class="btn-container">
-                    <a class="btn" href="#">GET STARTED</a>
+                    <a class="btn-get-started-homepage" href="#">GET STARTED</a>
                 </div>
                 <div>
-                    <img class="image-header" src="./imgs/imgsproyect/image-main33.jpg" alt="Image-Header">
+                    <img class="image-header-homepage" src="./imgs/imgsproyect/image-main33.jpg" alt="Image-Header">
                 </div>
             </Section>
         </header>
