@@ -111,10 +111,11 @@
     width: 55rem; 
     height:45.6rem; 
     overflow: hidden;
+    border-bottom-left-radius: 5rem;
     position: relative;
     bottom: 37.5rem;
     left: 55rem;
-    border-bottom-left-radius: 5rem;
+    
 }
 
 
@@ -189,6 +190,16 @@
 
 /* Styles for the dish image */
 .dish-image{
+    display: block;
+    width: 237px;
+    height: 130px;
+    border-radius: 1rem;
+    position: relative;
+    left: 2.6rem;
+    bottom: 0rem;
+}
+
+.dish-image-php{
     display: block;
     width: 237px;
     height: 130px;
@@ -1034,6 +1045,18 @@
 
     .btn-get-started-homepage{
         right: 10rem;
+    }
+
+    .image-header-homepage{
+        width: 50rem; 
+        height:46.8rem; 
+        
+        overflow: hidden;
+        position: relative;
+      
+        right: 10rem;
+        border-bottom-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
     }
 
    

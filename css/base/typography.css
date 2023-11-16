@@ -8,6 +8,15 @@
     line-height: 6.2rem;
 }
 
+.hero-title-homepage{  
+    color: black;  
+    font-size: clamp(var(--fs-lg), 4rem, var(--fs-xl)); /* Adaptable font size */
+    font-family: var(--ff-main);
+    position: relative;
+    left: 12rem;
+    line-height: 6.2rem;
+}
+
 .hero-title-specifications{
     color: black;  
     font-size: clamp(var(--fs-lg), 4rem, var(--fs-xl)); /* Adaptable font size */
@@ -74,8 +83,16 @@
     font-family: var(--ff-main);
     color: black;
     position: relative;
-    bottom: 2rem;
-    
+    bottom: 2rem; 
+}
+
+.dish-title-php{
+    font-size: 1.3rem;
+    font-family: var(--ff-main);
+ 
+    color: black;
+    position: relative;
+    bottom: 0rem; 
 }
 
 
@@ -89,6 +106,17 @@
     position: relative;
     right: .5rem;
     bottom: 3.5rem;
+}
+
+.dish-text-php{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    line-height: 2;
+    max-width: 292px; 
+    color: black;
+    position: relative;
+    left: 1.5rem;
+    bottom: 0.5rem;
 }
 
 /* Style for the title of featured dishes */
