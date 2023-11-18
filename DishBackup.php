@@ -1,29 +1,3 @@
-<?php 
-    require_once '../database.php';
-    // Reference: https://medoo.in/api/select
-    // tb_dishes and tb_categories JOIN
-    $dishes = $database->select("tb_dish", [
-        "[>]tb_categories" => ["id_category" => "id_category"],
-        "[>]tb_number_of_people" => ["id_number_of_people" => "id_number_of_people"]
-    ], [
-        "tb_dish.id_dish",
-        "tb_dish.dish_name",
-        "tb_dish.dish_description",
-        "tb_dish.dish_image",
-        "tb_dish.dish_price",
-        "tb_dish.featured_dish",
-        "tb_categories.id_category",
-        "tb_categories.name_category",
-        "tb_number_of_people.id_number_of_people",
-        "tb_number_of_people.name_group_size"
-    //], [
-        //where to show featured dishes only
-        //"tb_dishes.featured" => 1 
-    ]);
-
-    // var_dump($dishes);
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -71,6 +71,8 @@
     display: grid;
     width: 80vw;
     margin: auto;
+    position: relative;
+    bottom: 5rem;
 }
 
 

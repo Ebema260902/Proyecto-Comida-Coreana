@@ -100,7 +100,7 @@
                             echo "<p class='dish-text-php'>".substr($dish["dish_description"], 0, 90)."...</p>";
                             echo "<div>";
                                 echo "<a class='btn-cart' href='#'></a>";
-                                echo "<a class='btn-info' href='./Dish.html'></a>";
+                                echo "<a class='btn-info' href='./Dish.php?id=".$dish["id_dish"]."'></a>";
                             echo "</div>";
                         echo "</section>";          
                 }
